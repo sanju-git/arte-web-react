@@ -15,6 +15,10 @@ a {
   color: white !important;
 }
 
+.font-link {
+  font-family: "Oswald", sans-serif;
+}
+
 .bg-img {
   /* The image used */
   background-image: url("./../public/assets/images/landing_bg.jpg");
@@ -63,8 +67,14 @@ a {
   color: black;
 }
 
-.logo {
+.option {
+  color: white;
 }
+
+.active-option {
+  color: #be2b2e !important;
+}
+
 .ml-1 {
   margin-left: 10px;
 }
@@ -102,11 +112,11 @@ a {
 
 .line-hr-secondary {
   width: 70px;
-  border-top: 2px solid #dd6e8b !important;
+  border-top: 3px solid #be2b2e !important;
 }
 
 .pink-text {
-  color: #dd6e8b;
+  color: #be2b2e;
 }
 .container {
   position: relative;
@@ -165,6 +175,7 @@ a {
 /* Modal Content (Image) */
 .modal-content {
   margin: auto;
+  margin-top: 40px;
   display: block;
   width: 80%;
   max-width: 700px;
@@ -201,10 +212,10 @@ a {
 /* The Close Button */
 .close {
   position: absolute;
-  top: 15px;
+  top: 140px;
   right: 35px;
   color: #f1f1f1;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
   transition: 0.3s;
 }
@@ -221,4 +232,13 @@ a {
   .modal-content {
     width: 100%;
   }
+}
+
+.dark-nav {
+  background-color: #0f0f0f;
+}
+
+.social-icons {
+  color: white;
+  font-size: 24px;
 }

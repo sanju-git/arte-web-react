@@ -21,9 +21,9 @@ class GalleryView extends React.Component {
 
   render() {
     return (
-      <div style={{ padding: 100 }}>
-        <span className="pink-text">GALLERY</span>
-        <h3>PORTFOLIO</h3>
+      <div style={{ marginTop: 50 }}>
+        <h5 className="pink-text">GALLERY</h5>
+        <h3 style={{ color: "white" }}>PORTFOLIO</h3>
         <hr className="line line-hr-secondary" />
         <div className="row d-flex align-items-center justify-content-evenly">
           {images &&
@@ -37,7 +37,7 @@ class GalleryView extends React.Component {
                   src={"/assets/images/" + img + ".jpeg"}
                   alt="Avatar"
                   className="image"
-                  style={{ height: 300, width: 300 }}
+                  style={{ height: 300, width: 290 }}
                   id="myImg"
                 />
                 <div className="middle">
@@ -48,7 +48,11 @@ class GalleryView extends React.Component {
         </div>
         <div>
           <div id="myModal" className="modal">
-            <span onClick={this.closeDialog} className="close">
+            <span
+              style={{ zIndex: 1050 }}
+              onClick={this.closeDialog}
+              className="close"
+            >
               &times;
             </span>
 
