@@ -35,6 +35,36 @@ a {
   position: relative;
 }
 
+.about-bg-img {
+  background-image: url("./../public/assets/images/about-us-bg.jpeg");
+  height: 70vh;
+  margin-top: 20px !important;
+  /* min-height: 400px; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+.brush-bg-img {
+  background-image: url("./../public/assets/images/brushes-bg.jpeg");
+  height: 70vh;
+  margin-top: 20px !important;
+  /* min-height: 400px; */
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+}
+
 /* Position the navbar container inside the image */
 .container {
   position: absolute;
@@ -71,33 +101,33 @@ a {
   color: white;
 }
 
-.active-option {
+.active-nav {
   color: #be2b2e !important;
 }
 
 .ml-1 {
-  margin-left: 10px;
+  margin-left: 10px !important;
 }
 .ml-2 {
-  margin-left: 20px;
+  margin-left: 20px !important;
 }
 .mt-1 {
-  margin-top: 10px;
+  margin-top: 10px !important;
 }
 .mt-2 {
-  margin-top: 20px;
+  margin-top: 20px !important;
 }
 .mr-1 {
-  margin-right: 10px;
+  margin-right: 10px !important;
 }
 .mr-2 {
-  margin-right: 20px;
+  margin-right: 20px !important;
 }
 .mb-1 {
-  margin-bottom: 10px;
+  margin-bottom: 10px !important;
 }
 .mb-1 {
-  margin-bottom: 20px;
+  margin-bottom: 20px !important;
 }
 
 .d-flex {
@@ -112,11 +142,19 @@ a {
 
 .line-hr-secondary {
   width: 70px;
+  border-top: 3px solid #ffffff !important;
+}
+
+.pink-line-hr-secondary {
+  width: 70px;
   border-top: 3px solid #be2b2e !important;
 }
 
 .pink-text {
   color: #be2b2e;
+}
+.pink-bg {
+  background-color: #be2b2e;
 }
 .container {
   position: relative;
@@ -241,4 +279,22 @@ a {
 .social-icons {
   color: white;
   font-size: 24px;
+}
+
+.rating-star {
+  color: #e5983b;
+}
+
+.card:hover {
+  box-shadow: 7px 6px 15px -3px rgba(0, 0, 0, 0.88);
+  -webkit-box-shadow: 7px 6px 15px -3px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: 7px 6px 15px -3px rgba(0, 0, 0, 0.88);
+}
+
+.prod-desc {
+  padding: 50 px;
+  margin-top: 50 px;
+  background-color: #edfdff;
+  border-radius: 20px;
+  border: 1 px solid #cbf9ff;
 }
