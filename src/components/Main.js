@@ -1,5 +1,5 @@
 import React from "react";
-import GalleryView from "./GallerView";
+import GalleryContainer from "./GalleryContainer";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Header from "./Header";
@@ -15,16 +15,15 @@ class Main extends React.Component {
       <div data-spy="scroll" data-target="navbar">
         <Header from={"home"} navChange={true} />
         <div className="bg-img"></div>
-        <div style={{ backgroundColor: "#0f0f0f" }}>
-          <div style={{ padding: 100 }} id="gallery">
-            <GalleryView />
-          </div>
-          <div style={{ padding: 100 }} id="gallery">
-            <Testimonials />
-          </div>
-          <div style={{ padding: 100 }} id="courses">
-            <Footer />
-          </div>
+
+        <div style={{ padding: 50, backgroundColor: "#f5f5f7" }} id="gallery">
+          <GalleryContainer />
+        </div>
+        <div style={{ padding: 100 }}>
+          <Testimonials />
+        </div>
+        <div style={{ padding: 100 }}>
+          <Footer />
         </div>
       </div>
     );

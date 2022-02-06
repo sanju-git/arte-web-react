@@ -29,7 +29,7 @@ class Courses extends React.Component {
                 <div className="row">
                   <div className="col-md-3">
                     <img
-                      src={"/assets/images/gal-5.jpeg"}
+                      src={"/assets/images/gallery/gal-2.jpeg"}
                       alt="Avatar"
                       className="image"
                       style={{ height: 170, width: 250 }}

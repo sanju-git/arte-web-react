@@ -1,0 +1,28 @@
+[
+  {
+    "name": "sec-1",
+    "thumbnail": "gal-1.jpeg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna 1",
+    "images": [
+      "gal-item1.jpeg",
+      "gal-item2.jpeg",
+      "gal-item3.jpeg",
+      "gal-item4.jpeg",
+      "gal-item5.jpeg",
+      "gal-item6.jpeg",
+      "gal-item7.jpeg",
+      "gal-item8.jpeg",
+      "gal-item9.jpeg"
+    ]
+  },
+  {
+    "name": "sec-2",
+    "thumbnail": "gal-2.jpeg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna 2"
+  },
+  {
+    "name": "sec-3",
+    "thumbnail": "gal-3.jpeg",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, seddo eiusmod tempor incididunt ut labore et dolore magna 3"
+  }
+]
