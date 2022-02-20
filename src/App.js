@@ -7,6 +7,7 @@ import Products from "./components/Products";
 import Career from "./components/Career";
 import history from "./History";
 import GalleryView from "./components/GalleryView";
+import ContactUs from "./components/ContactUs";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
           <Route exact path="/courses" element={<Courses />} />
           <Route exact path="/products" element={<Products />} />
           <Route exact path="/career" element={<Career />} />
-          <Route exact path="/contact-us" element={<AboutUs />} />
+          <Route exact path="/contact-us" element={<ContactUs />} />
         </Routes>
       </Router>
     </div>

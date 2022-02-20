@@ -26,7 +26,7 @@ class Header extends React.Component {
       }
     } else {
       document.querySelector(".navbar").className =
-        "navbar navbar-expand-sm dark-nav";
+        "navbar navbar-expand-sm black-nav";
     }
   };
 
@@ -35,7 +35,13 @@ class Header extends React.Component {
     return (
       <React.Fragment>
         <div>
-          <nav className="navbar navbar-expand-sm dark-nav">
+          <nav
+            className={
+              from === "home"
+                ? "navbar navbar-expand-sm dark-nav"
+                : "navbar navbar-expand-sm black-nav"
+            }
+          >
             <div className="ml-2 mt-2">
               <NavLink onClick={() => this.setNav("home")} to="/">
                 <img

@@ -30,7 +30,7 @@ function GalleryContainer() {
 
                 <div className="middle">
                   <div>
-                    <p>{sec.desc}</p>
+                    <p style={{ color: "white" }}>{sec.desc}</p>
                   </div>
                 </div>
               </div>
@@ -39,9 +39,9 @@ function GalleryContainer() {
               style={{ textTransform: "uppercase", fontWeight: "bolder" }}
               className="text-center mt-2"
             >
-              <h4 style={{ fontWeight: "bolder", color: "black" }}>
+              <h5 style={{ fontWeight: "bolder", color: "black" }}>
                 {sec.name}
-              </h4>
+              </h5>
             </div>
           </div>
         ))}

@@ -62,7 +62,7 @@ class GalleryView extends React.Component {
                       marginTop: 1,
                       marginBottom: 1,
                     }}
-                    className="col gallery-image-container"
+                    className="col-lg-2 gallery-image-container"
                     onClick={() => this.openPopup(img)}
                   >
                     <div>

@@ -22,7 +22,7 @@ class Main extends React.Component {
         <div style={{ padding: 100 }}>
           <Testimonials />
         </div>
-        <div style={{ padding: 100 }}>
+        <div style={{ padding: 100, backgroundColor: "black" }}>
           <Footer />
         </div>
       </div>
